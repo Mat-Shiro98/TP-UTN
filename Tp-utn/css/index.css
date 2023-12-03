@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292826;
+    color: white;
+    padding: 10px;
+
+    /*Para fijar el menu*/
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu nav ul li {
+    margin-right: 8rem;
+    display: inline-block
+}
+
+#menu nav ul li .link{
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#menu nav ul li .link:hover {
+    color: #ffc800;
+}
+
+#contenedor{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#contenedor #carrusel img{
+    width: 100%;
+    height: auto;
+}
