@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+/*
 #logo{
     font-size: 1.5em;
     font-weight: bold;
@@ -17,7 +17,7 @@ body {
     color: white;
     padding: 10px;
 
-    /*Para fijar el menu*/
+    //Para fijar el menu
     position: fixed;
     z-index: 100;
     top: 0;
@@ -58,3 +58,5 @@ body {
     width: 100%;
     height: auto;
 }
+
+*/
