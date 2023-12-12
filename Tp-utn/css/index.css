@@ -60,9 +60,24 @@ body {
 }
 
 */
+.logo{
+    margin-left: 10rem;
+}
+
+.menu{
+    margin-left: 20rem;
+}
+
+.buscar{
+    margin-left: 20rem;
+    text-align: center;
+
+}
+
 header{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Establece el sombreado */
 }
+
 
 
 .card{
@@ -87,8 +102,23 @@ header{
 }
 
 
+/*Celular */ 
 @media screen and (max-width: 550px) {
 
+    .logo{
+        margin-left: 13rem;
+    }
+
+    .navbar-nav{
+        margin: auto;
+    }
+
+    .buscar{
+        margin: auto;
+        margin-top: 1rem;
+
+    }
+    
     .cartas{
         display: flex;
         flex-direction:column;
