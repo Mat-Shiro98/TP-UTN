@@ -60,3 +60,26 @@ body {
 }
 
 */
+header{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Establece el sombreado */
+}
+
+
+.card{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.532);
+}
+
+.card-body{
+    text-align: center;
+}
+
+.cartas{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;    
+
+    column-gap: 1rem;
+}
+
+
