@@ -13,8 +13,8 @@
     height: auto;
 > Mantiene la proporción de la imagen
 
-[!NOTE]
+>[!NOTE].
 > Esto es un aviso!
 
-[!TIP]
+>[!TIP].
 >Esto es un consejo 
